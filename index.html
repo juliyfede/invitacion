@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juli+Fede | ¡Nos Casamos!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<!-- class=" bg-[url(./imagenes/TEXTURA.png)] bg-cover bg-fixed bg-no-repeat -->
+<body>
+        <section class=" relative">
+            <!-- <div class=" fixed bottom-5 left-5 z-100 ">
+                HOLA
+            </div> -->
+            <div class=" mx-auto max-w-lg"> <!-- Contenedor padre y ancho máximo -->
+                <!-- Imagen de fondo -->
+                
+    
+                <!-- Contenedor para textos superpuestos -->
+                <div class=" bg-[url(./imagenes/foto_1.jpg)] bg-cover w-[102.2%] inset-0 flex flex-col items-center justify-between aspect-[calc(489/737)] max-w-lg overflow-x-hidden">
+                    <!-- <div class=" absolute z-0 w-[105%]">
+                        <img 
+                        class=" z-0" 
+                        src="imagenes/foto_1.jpg" 
+                        alt="fondo novios"
+                        >
+                    </div> -->
+                    <!-- "Nos casamos" - Parte superior -->
+                     <div class=" flex flex-col items-center z-2">
+                         <img 
+                             class="w-5/6 mt-2 " 
+                             data-aos="fade-right" data-aos-offset="100" data-aos-duration="1500"
+                             src="imagenes/nos-casamos.png" 
+                             alt="Nos casamos"
+                         >
+         
+                         <!-- Fecha - Centro -->
+                         <img 
+                             class="w-1/4 mt-3" 
+                             data-aos="fade-zoom-in" data-aos-offset="150" data-aos-duration="2000"
+                             src="imagenes/22-marzo-2025.png" 
+                             alt="22 Marzo"
+                         >
+                     </div>
+                     
+    
+                    <!-- Nombres - Parte inferior derecha -->
+                     <div class=" z-2 flex flex-col items-center" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1500">
+                         <img 
+                             class="w-5/6 " 
+                             src="imagenes/juli-fede.png" 
+                             alt="Juli-Fede"
+                         >
+                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="relative">
+            <div class=" mx-auto max-w-lg">
+                <div class=" bg-[url(./imagenes/foto_2.jpg)] bg-cover w-[102.2%] max-w-lg inset-0 flex flex-col items-center justify-center aspect-[calc(489/737)] overflow-x-hidden">
+                    <!-- <div class="absolute z-0 w-[105%] overflow-hidden">
+                        <img src="imagenes/foto_2.jpg" alt="fondo_2">
+                    </div> -->
+                    <div class="flex flex-col items-center">
+                        <div class="contador text-white max-w-lg w-[95%] rounded-lg" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                            <div class="z-2 flex flex-col items-center" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                                <img class="w-1/8 mt-3" src="imagenes/anillos.png" alt="anillo">
+                            </div>
+                            <div class="z-2 flex flex-col items-center mt-3" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                                <img class="w-1/3" src="imagenes/faltan.png" alt="faltan">
+                            </div>
+                            <div class="z-2 flex justify-center space-x-4 mt-4 mb-5" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                                <div class="flex flex-col items-center bg-white/80 px-4 py-2 rounded-lg shadow-md">
+                                    <span style="font-size: 33px;" id="dias" class="text-4xl font-bold text-gray-900">00</span>
+                                    <span style="font-size: 10px;" class="text-sm text-gray-700">Días</span>
+                                </div>
+                                <div class="flex flex-col items-center bg-white/80 px-4 py-2 rounded-lg shadow-md">
+                                    <span style="font-size: 33px;" id="horas" class="text-4xl font-bold text-gray-900">00</span>
+                                    <span style="font-size: 10px;" class="text-sm text-gray-700">Horas</span>
+                                </div>
+                                <div class="flex flex-col items-center bg-white/80 px-4 py-2 rounded-lg shadow-md">
+                                    <span style="font-size: 33px;" id="minutos" class="text-4xl font-bold text-gray-900">00</span>
+                                    <span style="font-size: 10px;" class="text-sm text-gray-700">Minutos</span>
+                                </div>
+                                <div class="flex flex-col items-center bg-white/80 px-4 py-2 rounded-lg shadow-md">
+                                    <span style="font-size: 33px;" id="segundos" class="text-4xl font-bold text-gray-900">00</span>
+                                    <span style="font-size: 10px;" class="text-sm text-gray-700">Segundos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        <section class="relative">
+            <div class="inset-0 flex flex-col items-center justify-center aspect-[calc(489/737)] mx-auto w-full max-w-lg overflow-x-hidden">
+                <div class="absolute flex flex-col items-center justify-center" data-aos="fade-zoom-in" data-aos-duration="800">
+                    <div class="absolute flex flex-col items-center z-0 w-100 opacity-15">
+                        <img class="object-cover" src="imagenes/and.png" alt="&">
+                    </div>
+                </div>
+                <div class="z-2 flex flex-col text-center text-2xl pr-10 pl-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
+                    <h3 style="font-family: Poppins; font-weight: 300; font-size: large; line-height: 2.2;"><span >
+                        Sos una persona muy especial <br>en nuestra historia, <br>
+                        y ¡nos encantaría contar <br>
+                        con tu presencia en <br>
+                        este día especial <br>
+                        para nosotros!.</span></h3>
+                </div>
+            </div>
+        </section>
+        <section class="relative">
+            <div class="relative inset-0 flex flex-col items-center justify-center mx-auto max-w-lg overflow-y-hidden">
+                <div class="w-1/8 mb-5" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <img src="imagenes/corazon.png" alt="Copa champagne">
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-5/6 mb-6" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                        <img src="imagenes/ceremonia-y-fiesta.png" alt="Ceremonia y fiesta">
+                    </div>
+                    <div class="flex flex-col text-center">
+                        <h3 style="font-family: Poppins; font-weight: 200;">------------------------------------------</h3>
+                    </div>
+                    <div class="flex flex-col text-center mb-5" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                        <h3 style="font-weight: 300;">
+                            <span>Te esperamos el día <br>Sábado 22 de Marzo de 2025 <br> a las 18:30hs en</span>
+                        </h3>
+                    </div>
+                    <div class="flex flex-col text-center mb-5" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                        <h3 style="font-weight: 700;">
+                            <span>HOTEL COLONIAL</span>
+                        </h3>
+                    </div>
+                    <div class="flex flex-col text-center mb-5" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                        <h3 style="font-weight: 300;">
+                            <span>Ruta Nacional 7 Km 487 <br>Laboulaye, Córdoba</span>
+                        </h3>
+                    </div>
+                    <div class="w-1/3 mb-5 " data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                        <a href="https://maps.app.goo.gl/ecCB7UV8P1MfwWJG7"><img src="imagenes/como-llegar.png" alt="como llegar"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="relative">
+            <div class="relative flex flex-col items-center mx-auto max-w-lg w-[102.2%] mt-15 text-white bg-black p-5 overflow-x-hidden" style="font-weight: 300; line-height: 1.8;" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                <div class="overflow-x-hidden" data-aos="fade-right" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <h3><span>¡Esto se va a descontrolar!</span></h3>
+                </div>
+                <div class="overflow-x-hidden" data-aos="fade-left" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <h3><span>es por eso que hemos decidido que</span></h3>
+                </div>
+                <div class="overflow-x-hidden" data-aos="fade-right" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <h3><span>esta invitación es solo para adultos.</span></h3>
+                </div>
+            </div>
+        </section>
+        <section class="bloque2 relative">
+            <div class=" mx-auto max-w-lg">
+                <div class=" bg-[url(./imagenes/foto_3.jpg)] bg-cover w-[102.2%] inset-0 flex flex-col items-center justify-center aspect-[calc(489/737)] max-w-lg">
+                    <!-- <div class="absolute z-0 h-full">
+                        <img src="imagenes/foto_3.jpg" alt="fondo_3">
+                    </div> -->
+                    <div class="contador z-1 text-white absolute max-w-lg  w-[95%] rounded-lg" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                        <div class="flex flex-col items-center justify-center">
+                            <div class="z-2 flex flex-col items-center object-top" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                                <img class="w-1/8 mt-3" src="imagenes/corazon.png" alt="anillo">
+                            </div>
+                            
+                            <div class="z-2 flex flex-col items-center mt-3" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                                <img class="w-1/2" src="imagenes/dress-code.png" alt="faltan">
+                            </div>
+                            <div class="flex flex-col text-center">
+                                <h3 style="font-family: Poppins; font-weight: 200;">------------------------------------------</h3>
+                            </div>
+                            <div class="w-40" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                                <img src="imagenes/elegante.png" alt="elegante">
+                            </div>
+                            <div class="flex flex-col text-center" data-aos="fade-right" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                                <h3><span>Los colores blancos/nudes</span></h3>
+                            </div>
+                            <div class="flex flex-col text-center pb-5" data-aos="fade-left" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                                <h3><span>son exclusividad de la novia</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        <section class="relative">
+            <div class=" flex flex-col items-center mx-auto aspect-[calc(1080/1920)] w-[102.2%] max-w-lg" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                <img src="./imagenes/recorrido-sabado.png" alt="ruta_1">
+            </div>
+        </section>
+        <section class="relative">
+            <div class=" flex flex-col items-center mx-auto aspect-[calc(1080/1920)] w-[102.2%] max-w-lg" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                <img src="./imagenes/recorrido-domingo.png" alt="ruta_2">
+            </div>
+        </section>
+        <section class="relative">
+            <div class="relative flex flex-col items-center mx-auto max-w-lg">
+                <div class="w-1/12 mt-13 mb-5" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <img src="imagenes/regalo.png" alt="regalo">
+                </div>
+                <div class="flex flex-col text-center -mb-4" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <h3 style="font-weight: 300;"><span>Estamos planeando nuestra</span></h3>
+                </div>
+                <div class="w-5/6" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <img src="imagenes/luna-de-miel.png" alt="luna-de-miel">
+                </div>
+                <div class="flex flex-col text-center" data-aos="fade-zoom-in" data-aos-delay="30" data-aos-offset="150" data-aos-duration="2500">
+                    <h3 style="font-weight: 300; line-height: 2;">
+                        <span>pero como descubrimos que <br>
+                            volar en alfombra mágica no es viable <br>
+                            nos encantaría que nos ayudes <br>
+                            con un pequeño aporte para <br>
+                            ¡poder despegar!                 
+                        </span>
+                    </h3>
+                </div>
+                <div class="flex flex-col text-center mt-5 mb-5">
+                    <h3 style="font-family: Poppins; font-weight: 200;">------------------------------------------</h3>
+                </div>
+                <div class="flex flex-col text-center" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <h3 style="font-weight: 500;"><span>ALIAS: BODA.JULIYFEDE <br> Mercado Pago a nombre de <br> Juliana Belén Ríos Silioni</span></h3>
+                </div>
+                <div class="w-1/20 mt-5 mb-13" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <img src="imagenes/corazon.png" alt="corazon">
+                </div>
+            </div>
+        </section>
+        <section class="relative mx-auto">
+            <div class="bg-[url(./imagenes/foto_4.jpg)] bg-cover aspect-[calc(489/737)] w-[102.2%] flex flex-col items-center justify-between mx-auto max-w-lg">
+                <div class="w-1/6 mt-35" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500"> 
+                    <img src="imagenes/cartas.png" alt="cartas">
+                </div>
+                <div class="contador flex flex-col items-center max-w-lg -mt-20 w-[65%] rounded-lg" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <div class="flex flex-col items-center">
+                        <div class="w-2/3 mt-5 mb-3" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                            <img src="imagenes/venis.png" alt="venis?">
+                        </div>
+                        <div class="flex flex-col text-center" data-aos="fade-right" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                            <h3 style="font-weight: 300;"><span>Esta fiesta no sería <br>lo mismo sin vos.</span></h3>
+                        </div>
+                        <div class="flex flex-col text-center mb-5" data-aos="fade-left" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                            <h3 style="font-weight: 300;"><span>¡Esperamos verte ahí!</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[40%] -mt-15" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="50" data-aos-duration="1500">
+                    <a href=""><img src="imagenes/confirmar-asistencia.png" alt="confirmar-asistencia"></a>
+                </div>
+                <div class="flex flex-col w-1/20 mb-5" data-aos="fade-up" data-aos-offset="50" data-aos-duration="1500">
+                    <img src="imagenes/corazon.png" alt="corazon">
+                </div>
+            </div>
+        </section>
+        <section class="relative">
+            <div class="flex flex-col items-center justify-center mx-auto max-w-lg mt-10 overflow-x-hidden overflow-y-hidden">
+                <div class="w-1/6" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <img src="imagenes/camara.png" alt="camara">
+                </div>
+                <div class="w-5/6" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <img src="imagenes/album-de-fotos.png" alt="album">
+                </div>
+                <div class="flex flex-col text-center" data-aos="fade-left" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <h3 style="font-weight: 300;"><span>El día de la fiesta tendremos <br> un álbum de fotos colaborativo.</span></h3>
+                </div>
+                <div class="flex flex-col text-center mt-3 mb-3">
+                    <h3 style="font-family: Poppins; font-weight: 200;">------------------------------------------</h3>
+                </div>
+                <div class="flex flex-col text-center" data-aos="fade-right" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <h3 style="font-weight: 300;"><span>¡Compartí tus fotos con nosotros para que <br>no nos perdamos de nada!</span></h3>
+                </div>
+                <div class="flex flex-col text-center mt-5" data-aos="fade-left" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <h3 style="font-weight: 300;"><span>Descargá en tu celular la App <br>Dot Memories desde aquí:</span></h3>
+                </div>
+                <div class="w-[40%] mt-3" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <a href="https://onelifesocial.page.link/tFGi"><img src="imagenes/ingesa-al-album.png" alt="ingesa-al-album"></a>
+                </div>
+                <div class="flex flex-col text-center mt-3" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <h3 style="font-weight: 300;"><span>Código del álbum: <br>5g5AqQ1i</span></h3>
+                </div>
+            </div>
+        </section>
+        <section class="relative">
+            <div class="flex flex-col items-center mx-auto w-[102.2%] max-w-lg" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                <img src="imagenes/flor-entera.png" alt="">
+            </div>
+        </section>
+        <section class="relative">
+            <div class="relative flex flex-col items-center justify-center mx-auto max-w-lg">
+                <div class="w-5/6 mt-1" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <img src="imagenes/informacion-util.png" alt="info-util">
+                </div>
+                <div class="flex flex-col text-center mt-10" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <h3 style="font-weight: 600; text-decoration: underline;"><span>ALOJAMIENTOS</span></h3>
+                </div>
+                <div class="flex flex-col text-center mt-10" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <h3><span>Hotel Colonial</span></h3>
+                </div>
+                <div class="w-[40%] mt-2" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <a href="https://maps.app.goo.gl/ecCB7UV8P1MfwWJG7"><img src="imagenes/ver-en-mapa.png" alt="ver-en-mapa"></a>
+                </div>
+                <div class="flex flex-col text-center mt-10" data-aos="fade-up" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <h3><span>Hotel Laboulaye</span></h3>
+                </div>
+                <div class="w-[40%] mt-2" data-aos="fade-zoom-in" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                    <a href="https://maps.app.goo.gl/m5KMDhTfc62VPRke6"><img src="imagenes/ver-en-mapa.png" alt="ver-en-mapa"></a>
+                </div>
+            </div>
+        </section>
+        <section class=" relative mt-10">
+            <!-- <div class=" fixed bottom-5 left-5 z-100 ">
+                HOLA
+            </div> -->
+            <div class=" mx-auto max-w-lg  "> <!-- Contenedor padre y ancho máximo -->
+                <!-- Imagen de fondo -->
+                
+    
+                <!-- Contenedor para textos superpuestos -->
+                <div class=" bg-[url(./imagenes/foto_5.jpg)] bg-cover w-[102.2%] inset-0 flex flex-col items-center justify-evenly aspect-[calc(489/737)] max-w-lg">
+                    <!-- <div class=" absolute z-0 w-[105%]">
+                        <img 
+                        class=" z-0" 
+                        src="imagenes/foto_1.jpg" 
+                        alt="fondo novios"
+                        >
+                    </div> -->
+                                    <!-- Nombres - Parte inferior derecha -->
+                    <div class=" z-2 flex flex-col items-center" data-aos="fade-right" data-aos-delay="10" data-aos-offset="150" data-aos-duration="1500">
+                        <img 
+                            class="w-5/6 " 
+                            src="imagenes/juli-fede.png" 
+                            alt="Juli-Fede"
+                        >
+                    </div>
+                    <!-- "Nos casamos" - Parte superior -->
+                    <div class=" flex flex-col items-center z-2 pt-50" data-aos="fade-zoom-in" data-aos-delay="30" data-aos-offset="350" data-aos-duration="1500">
+                         <!-- Fecha - Centro -->
+                         <img 
+                             class="w-1/4" 
+                             src="imagenes/22-marzo-2025.png" 
+                             alt="22 Marzo"
+                         >
+                    </div>
+                </div>
+            </div>
+        </section> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
